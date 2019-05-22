@@ -1,5 +1,6 @@
 package co.co.beans;
 
+//Persona
 public class Persona {
 	private String nombre;
     private String apellido;

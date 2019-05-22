@@ -52,9 +52,6 @@ public class MainClass {
 		System.out.println(persona.get(i).getNombre());
 	}
 	
-	
-	
-	
 
 	}
 
