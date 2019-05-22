@@ -24,12 +24,14 @@ public class MainClass {
 	//Equipos
 	Equipo Barcelona = new Equipo("Barcelona", "234678", jugadores);
 	Equipo Real = new Equipo("Real", "23278", jugadores);
+	Equipo Nacional = new Equipo("Nacional","23422",jugadores);
 	System.out.println("Jugador: ");
 	System.out.println(jugadores.get("2").getCodigo());
 	
 	ArrayList<Equipo>equipo = new ArrayList<Equipo>();
 	equipo.add(Barcelona);
 	equipo.add(Real);
+	equipo.add(Nacional);
 	
 	System.out.println("Equipos: ");
 	for(int i=0; i<equipo.size();i++) {
